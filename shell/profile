@@ -1,0 +1,29 @@
+# Generic shell settings
+# (compatible with bash and zsh) 
+
+# Env
+export EDITOR=nano
+
+# Key bindings
+stty quit ^Q  # Bind Ctrl+Q to SIGQUIT
+
+# Aliases
+alias g=git
+alias gutx=gitx
+alias be='bundle exec'
+
+# Paths
+## Default path
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"
+## Homebrew binaries
+export PATH="/usr/local/bin:${PATH}"
+## npm binaries
+export PATH="/usr/local/share/npm/bin:${PATH}"
+
+# Import rbenv helpers
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+# Import local settings for this machine
+if [ -f ~/.profile.local ]; then
+  source ~/.profile.local
+fi
