@@ -27,6 +27,7 @@
 	ui = true
   	diff = true
 	status = true
+	branch = auto
 [mergetool]
 	keepBackup = false
 [rebase]
