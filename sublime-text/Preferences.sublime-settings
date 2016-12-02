@@ -1,0 +1,25 @@
+{
+	"color_scheme": "Packages/User/SublimeLinter/zenburn (SL).tmTheme",
+	"detect_indentation": false,
+	"ensure_newline_at_eof_on_save": true,
+	"folder_exclude_patterns":
+	[
+		".idea",
+		".git",
+		".sass-cache",
+		"tmp",
+		"dist",
+		"node_modules"
+	],
+	"font_size": 13,
+	"ignored_packages":
+	[
+		"Package Control",
+		"Vintage"
+	],
+	"open_files_in_new_window": false,
+	"tab_size": 2,
+	"theme": "Default.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}

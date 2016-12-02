@@ -1,0 +1,10 @@
+[
+    { "keys": ["ctrl+i"],  "command": "reindent" },
+    { "keys": ["super+j"], "command": "reveal_in_side_bar" },
+    { "keys": ["command+shift+o"], "command": "show_overlay",
+      "args": {
+            "overlay": "goto",
+            "show_files": true
+        }
+    }
+]
