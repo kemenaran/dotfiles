@@ -12,10 +12,10 @@
 	sb = submodule foreach --recursive git branch
 	graph = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 	pfo = push --force origin
-	track = "!f() { : git branch ; local b=${1-dev} ; git branch --set-upstream-to=upstream/$b ; }; f"
-        cleanb = "!f() { : git branch ; git checkout dev ; git pull ; git push origin :$1 ; git branch -d $1 ; }; f"
+	track = "!f() { : git branch ; local b=${1-master} ; git branch --set-upstream-to=upstream/$b ; }; f"
+        cleanb = "!f() { : git branch ; git checkout master ; git pull ; git push origin :$1 ; git branch -d $1 ; }; f"
         test = "!f() { local r=$(echo "$1" | cut -d":" -f1) ; local b=$(echo "$1" | cut -d":" -f2) ; git fetch $r && git checkout $r/$b ; }; f"
-	feat = "!f() { local b=${2-dev} ; git checkout $b && git pull && git checkout -b \"$1\" && git track $b; }; f"
+	feat = "!f() { local b=${2-master} ; git checkout $b && git pull && git checkout -b \"$1\" && git track $b; }; f"
 [merge]
 	tool = opendiff
 [core]
