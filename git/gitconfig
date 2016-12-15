@@ -33,8 +33,6 @@
 [rebase]
 	autosquash = true
 	autostash = true
-[init]
-	templatedir = ~/.git_templates
 [pull]
 	rebase = true
 [format]
