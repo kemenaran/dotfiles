@@ -16,7 +16,7 @@ alias be='bundle exec'
 ## Default path
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"
 ## Homebrew binaries
-export PATH="/usr/local/bin:${PATH}"
+export PATH="/usr/local/sbin:/usr/local/bin:${PATH}"
 ## npm binaries
 export PATH="/usr/local/share/npm/bin:${PATH}"
 
