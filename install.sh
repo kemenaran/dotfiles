@@ -1,4 +1,4 @@
-#!/bin/bash -ex
+#!/bin/bash -e
 # Symlink dotfiles to their location
 
 DOT_ROOT=$(cd `dirname "$0"`; pwd)
