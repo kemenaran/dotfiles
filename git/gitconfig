@@ -41,3 +41,5 @@
 	follow = true
 [diff]
 	compactionHeuristic = true
+[credential]
+	helper = osxkeychain
