@@ -8,9 +8,8 @@
 		".git",
 		".sass-cache",
 		"tmp",
-		"dist",
-		"node_modules"
-	],
+		"dist"
+  ],
 	"font_size": 13,
 	"ignored_packages":
 	[
