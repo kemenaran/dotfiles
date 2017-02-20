@@ -1,10 +1,10 @@
 [
-    { "keys": ["ctrl+i"],  "command": "reindent" },
-    { "keys": ["super+shift+j"], "command": "reveal_in_side_bar" },
-    { "keys": ["command+shift+o"], "command": "show_overlay",
-      "args": {
-            "overlay": "goto",
-            "show_files": true
-        }
-    }
-  ]
+  { "keys": ["ctrl+i"],  "command": "reindent" },
+  { "keys": ["super+shift+j"], "command": "reveal_in_side_bar" },
+  { "keys": ["super+shift+o"], "command": "show_overlay",
+    "args": {
+          "overlay": "goto",
+          "show_files": true
+      }
+  }
+]
