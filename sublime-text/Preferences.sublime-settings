@@ -10,7 +10,7 @@
 		".sass-cache",
 		"tmp",
 		"dist"
-  ],
+	],
 	"font_size": 13,
 	"ignored_packages":
 	[
