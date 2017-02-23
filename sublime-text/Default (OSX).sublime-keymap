@@ -1,10 +1,14 @@
 [
+  /* Xcode-style key-bindings */
   { "keys": ["ctrl+i"],  "command": "reindent" },
   { "keys": ["super+shift+j"], "command": "reveal_in_side_bar" },
+  { "keys": ["super+à"], "command": "toggle_side_bar" },
   { "keys": ["super+shift+o"], "command": "show_overlay",
     "args": {
           "overlay": "goto",
           "show_files": true
       }
-  }
+  },
+  /* Origami: Xcode-style key-bindings for navigating in panes */
+  { "keys": ["super+enter"], "command": "toggle_zoom_pane" }
 ]
