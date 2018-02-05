@@ -1,0 +1,5 @@
+# macOS Finder files
+.DS_Store
+
+# Vagrant Virtual Machines
+.vagrant/
