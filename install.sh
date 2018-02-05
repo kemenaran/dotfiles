@@ -30,13 +30,13 @@ _install() {
 	local src_file="$1"
 	local dest_file="$2"
 	if [ "$src_file" -ef "$dest_file" ]; then
-		echo "Skipped $dest_file: already installed"
+		echo "[Skipped] $dest_file: already installed"
 	else
 		_confirm "$dest_file"
 		if [ "$confirmed" == "yes" ]; then
 			[ -e "$dest_file" -o -L "$dest_file" ] && rm "$dest_file"
 			ln -s "$src_file" "$dest_file"
-			echo "Installed $dest_file"
+			echo "[Installed] $dest_file"
 		fi
 	fi
 }
