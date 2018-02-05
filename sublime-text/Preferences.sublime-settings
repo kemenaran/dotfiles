@@ -1,7 +1,7 @@
 {
 	"color_scheme": "Packages/zenburn/zenburn.tmTheme",
 	"create_new_pane_if_necessary": false,
-	"detect_indentation": false,
+	"detect_indentation": true,
 	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
 	[
