@@ -41,6 +41,7 @@
 [log]
 	follow = true
 [diff]
+	algorithm = histogram
 	compactionHeuristic = true
 [credential]
 	helper = osxkeychain
