@@ -3,3 +3,6 @@
 
 # Vagrant Virtual Machines
 .vagrant/
+
+# dotenv local files
+.env.local
