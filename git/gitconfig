@@ -2,7 +2,7 @@
 	email = kemenaran@gmail.com
 	name = Pierre de La Morinerie
 [include]
-        path = ~/.gitconfig.local
+	path = ~/.gitconfig.local
 [push]
 	default = simple
 [alias]
@@ -26,7 +26,7 @@
 	precomposeunicode = true
 [color]
 	ui = true
-  	diff = true
+	diff = true
 	status = true
 	branch = auto
 [mergetool]
