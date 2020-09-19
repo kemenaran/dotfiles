@@ -48,3 +48,5 @@
 	helper = osxkeychain
 [rerere]
 	enabled = true
+[fetch]
+	prune = true
