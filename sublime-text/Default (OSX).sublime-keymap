@@ -10,5 +10,7 @@
       }
   },
   /* Origami: Xcode-style key-bindings for navigating in panes */
-  { "keys": ["super+enter"], "command": "toggle_zoom_pane" }
+  { "keys": ["super+enter"], "command": "toggle_zoom_pane" },
+  /* Alignment key bindings */
+  { "keys": ["super+ctrl+shift+a"], "command": "alignment" }
 ]

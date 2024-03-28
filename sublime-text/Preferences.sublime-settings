@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/zenburn/zenburn.tmTheme",
+	"color_scheme": "Breakers.sublime-color-scheme",
 	"create_new_pane_if_necessary": false,
 	"detect_indentation": true,
 	"ensure_newline_at_eof_on_save": true,
@@ -12,16 +12,22 @@
 		"tmp",
 		"dist"
 	],
-	"font_size": 13,
+	"font_size": 12,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
 	],
 	"open_files_in_new_window": false,
 	"remember_open_files": false,
 	"tab_size": 2,
-	"theme": "Adaptive.sublime-theme",
+	"theme": "auto",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"update_check": false,
+	"dark_theme": "Adaptive.sublime-theme",
+	"light_theme": "Adaptive.sublime-theme",
+	"dark_color_scheme": "Packages/zenburn/zenburn.tmTheme",
+	"light_color_scheme": "Celeste.sublime-color-scheme",
+	"auto_complete_commit_on_tab": true,
 }
