@@ -26,6 +26,9 @@ export PATH="$HOME/.cargo/bin:$PATH"
 ## Auto-update Homebrew every month (default is 60)
 HOMEBREW_AUTO_UPDATE_SECS=2592000
 
+# Difftastic
+export DFT_DISPLAY=inline
+
 # Import rbenv helpers
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
