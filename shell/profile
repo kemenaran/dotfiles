@@ -30,7 +30,7 @@ HOMEBREW_AUTO_UPDATE_SECS=2592000
 export DFT_DISPLAY=inline
 
 # Import rbenv helpers
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+eval "$(rbenv init - zsh)"
 
 # Import local settings for this machine
 if [ -f ~/.profile.local ]; then
