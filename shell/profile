@@ -15,22 +15,22 @@ alias be='bundle exec'
 # Paths
 ## Default path
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"
-## Homebrew binaries
-export PATH="/usr/local/sbin:/usr/local/bin:${PATH}"
-## npm binaries
-export PATH="/usr/local/share/npm/bin:${PATH}"
 # Rust binaries
 export PATH="$HOME/.cargo/bin:$PATH"
 
 # Homebrew
+## Add to path
+eval "$(/opt/homebrew/bin/brew shellenv)"
 ## Auto-update Homebrew every month (default is 60)
 HOMEBREW_AUTO_UPDATE_SECS=2592000
 
 # Difftastic
 export DFT_DISPLAY=inline
 
-# Import rbenv helpers
+# Import rbenv helpers (and cache them using zsh's evalcache)
 eval "$(rbenv init - zsh)"
+# Import nodenv (and cache them using zsh's evalcache)
+eval "$(nodenv init - zsh)"
 
 # Import local settings for this machine
 if [ -f ~/.profile.local ]; then
