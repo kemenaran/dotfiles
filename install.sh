@@ -44,5 +44,5 @@ _install() {
 _install "$DOT_ROOT/git/gitconfig" "$HOME/.gitconfig"
 _install "$DOT_ROOT/git/gitignore" "$HOME/.gitignore"
 _install "$DOT_ROOT/shell/profile" "$HOME/.profile"
-_install "$DOT_ROOT/sublime-text/Preferences.sublime-settings" "$HOME/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
-_install "$DOT_ROOT/sublime-text/Default (OSX).sublime-keymap" "$HOME/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap"
+_install "$DOT_ROOT/sublime-text/Preferences.sublime-settings" "$HOME/Library/Application Support/Sublime Text/Packages/User/Preferences.sublime-settings"
+_install "$DOT_ROOT/sublime-text/Default (OSX).sublime-keymap" "$HOME/Library/Application Support/Sublime Text/Packages/User/Default (OSX).sublime-keymap"
