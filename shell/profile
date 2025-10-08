@@ -15,7 +15,9 @@ alias be='bundle exec'
 # Paths
 ## Default path
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-# Rust binaries
+## Sublime Text
+export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
+## Rust binaries
 export PATH="$HOME/.cargo/bin:$PATH"
 
 # Homebrew
