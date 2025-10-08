@@ -24,7 +24,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 ## Add to path
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ## Auto-update Homebrew every month (default is 60)
-HOMEBREW_AUTO_UPDATE_SECS=2592000
+export HOMEBREW_AUTO_UPDATE_SECS="2592000"
 
 # Difftastic
 export DFT_DISPLAY=inline
