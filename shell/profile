@@ -27,10 +27,8 @@ export HOMEBREW_AUTO_UPDATE_SECS="2592000"
 # Difftastic
 export DFT_DISPLAY=inline
 
-# Import rbenv helpers (and cache them using zsh's evalcache)
+# Ruby
 eval "$(rbenv init - zsh)"
-# Import nodenv (and cache them using zsh's evalcache)
-eval "$(nodenv init - zsh)"
 
 # Import local settings for this machine
 if [ -f ~/.profile.local ]; then
