@@ -9,8 +9,6 @@ stty quit ^Q  # Bind Ctrl+Q to SIGQUIT
 
 # Aliases
 alias g=git
-alias gutx=gitx
-alias be='bundle exec'
 
 # Paths
 ## Default path
