@@ -30,6 +30,17 @@ export DFT_DISPLAY=inline
 # Ruby
 eval "$(rbenv init - zsh)"
 
+# Helper functions
+boop () {
+  local last="$?"
+  if [[ "$last" == '0' ]]; then
+    terminal-notifier -title "Terminal ✅" -message "Command finished successfully." -ignoreDnD -sound Sonumi
+  else
+    terminal-notifier -title "Terminal ❌" -message "Command failed." -ignoreDnD -sound Sosumi
+  fi
+  $(exit "$last")
+}
+
 # Import local settings for this machine
 if [ -f ~/.profile.local ]; then
   source ~/.profile.local
