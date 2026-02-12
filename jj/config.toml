@@ -1,0 +1,14 @@
+#:schema https://docs.jj-vcs.dev/latest/config-schema.json
+
+[user]
+name = "Pierre de La Morinerie"
+email = "kemenaran@gmail.com"
+
+[aliases]
+s = ["status"]
+c = ["commit"]
+d = ["describe"]
+tug = ["bookmark", "move", "--from", "heads(::@- & bookmarks())", "--to", "@-"]
+
+[ui]
+default-command = "log"

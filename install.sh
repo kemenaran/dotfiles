@@ -43,6 +43,7 @@ _install() {
 
 _install "$DOT_ROOT/git/gitconfig" "$HOME/.gitconfig"
 _install "$DOT_ROOT/git/gitignore" "$HOME/.gitignore"
+_install "$DOT_ROOT/jj/config.toml" "$HOME/.config/jj/config.toml"
 _install "$DOT_ROOT/shell/profile" "$HOME/.profile"
 _install "$DOT_ROOT/shell/zshrc" "$HOME/.zshrc"
 _install "$DOT_ROOT/shell/oh-my-zsh/custom/" "$HOME/.oh-my-zsh/custom"
