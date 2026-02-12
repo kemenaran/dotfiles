@@ -34,7 +34,7 @@ _install() {
 	else
 		_confirm "$dest_file"
 		if [ "$confirmed" == "yes" ]; then
-			[ -e "$dest_file" -o -L "$dest_file" ] && rm "$dest_file"
+			[ -e "$dest_file" -o -L "$dest_file" ] && rm -r "$dest_file"
 			ln -s "$src_file" "$dest_file"
 			echo "[Installed] $dest_file"
 		fi
@@ -44,5 +44,7 @@ _install() {
 _install "$DOT_ROOT/git/gitconfig" "$HOME/.gitconfig"
 _install "$DOT_ROOT/git/gitignore" "$HOME/.gitignore"
 _install "$DOT_ROOT/shell/profile" "$HOME/.profile"
+_install "$DOT_ROOT/shell/zshrc" "$HOME/.zshrc"
+_install "$DOT_ROOT/shell/oh-my-zsh/custom/" "$HOME/.oh-my-zsh/custom"
 _install "$DOT_ROOT/sublime-text/Preferences.sublime-settings" "$HOME/Library/Application Support/Sublime Text/Packages/User/Preferences.sublime-settings"
 _install "$DOT_ROOT/sublime-text/Default (OSX).sublime-keymap" "$HOME/Library/Application Support/Sublime Text/Packages/User/Default (OSX).sublime-keymap"
