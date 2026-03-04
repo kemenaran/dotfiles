@@ -1,7 +1,7 @@
 # Robbyrussel theme, with added jj prompt (if available)
 
 _kemenaran_vcs_info() {
-  # If the git prompt disappears, try `zstyle ':omz:alpha:lib:git' async-prompt 0`
+  # If the git prompt disappears, try `zstyle ':omz:alpha:lib:git' async-prompt force`
   jj_prompt_template_raw "surround('$ZSH_THEME_JJ_PROMPT_PREFIX', '$ZSH_THEME_JJ_PROMPT_SUFFIX', self.change_id().shortest(3))" \
   || git_prompt_info
 }
